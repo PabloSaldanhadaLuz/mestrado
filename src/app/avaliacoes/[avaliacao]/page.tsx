@@ -331,7 +331,7 @@ export default function Form({
           />
         </section>
 
-        <div className="flex p-2 justify-between items-center">
+        <div className="flex justify-between items-center">
           <button
             type="button"
             onClick={calcularModa}
