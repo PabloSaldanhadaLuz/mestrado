@@ -342,7 +342,7 @@ export default function Form({
           </button>
 
           {conceitoFinal && (
-            <div className="text-lg font-semibold">
+            <div className="text-lg p-2 font-semibold">
               Conceito Final:{" "}
               <span className="text-[var(--blue)]">{conceitoFinal}</span>
             </div>
