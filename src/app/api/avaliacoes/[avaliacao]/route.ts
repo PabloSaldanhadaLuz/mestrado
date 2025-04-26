@@ -3,7 +3,7 @@ import prisma from "../../../../../prisma";
 
 export async function GET(
   request: Request,
-  { params }: { params: { avaliacao: string } }
+  { params }: { params: Promise<{ avaliacao: string }> }
 ) {
   const { avaliacao } = await params;
   try {
@@ -80,10 +80,10 @@ export async function PATCH(request: Request) {
   }
 }
 
-export async function DELETE(request: Request, { params }: { params: { avaliacao: string } }) {
+export async function DELETE(request: Request, { params }: { params: Promise<{ avaliacao: string }> }) {
   try {
     const formDeletado = await prisma.form.delete({
-      where: { id: await params.avaliacao },
+      where: { id: (await params).avaliacao },
     });
 
     return NextResponse.json(formDeletado, { status: 200 });
