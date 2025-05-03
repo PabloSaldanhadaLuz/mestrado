@@ -3,7 +3,6 @@ export const etapas = {
     "O tema foi de interesse de todo o grupo?",
     "Houve diálogo no grupo para a escolha do tema?",
     "O tema foi coerente com a faixa etária, nível de conhecimento ou realidade do grupo?",
-    "Nada",
     "A escolha do tema, colaborou com o desenvolvimento da habilidade de socialização, colaboração e comunicação do grupo?",
   ],
   "Etapa II - Pesquisa Exploratória": [
