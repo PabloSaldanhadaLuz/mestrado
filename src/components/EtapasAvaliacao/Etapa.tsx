@@ -23,13 +23,13 @@ export const etapas = {
   "Etapa IV - Resolução do(s) Problema(s) e Desenvolvimento do Conteúdo Matemático":
     [
       "A resolução inicial dos alunos foi coerente com a pesquisa exploratória?",
-      "Houve modelo matemático? Se sim, este modelo foi coerente tendo um nível de complexidade adequado para a faixa etária, nível de conhecimento ou realidade do grupo?",
-      "O conteúdo matemático trabalhado auxiliou na resolução desse(s) problema(s)?",
+      "Houve a elaboração de modelos? Se sim, este modelo foi coerente tendo um nível de complexidade adequado para a faixa etária, nível de conhecimento ou realidade do grupo?",
+      "O conteúdo matemático trabalhado foi coerente com a faixa etária, nível de conhecimento ou realidade do grupo? ",
       "Teve empenho e colaboração do grupo para responder os problemas e ao descobrir o conteúdo matemático, caso houvesse?",
       "A resolução dos problemas colaborou com o desenvolvimento da habilidade de mobilizar conhecimentos sobre conteúdos específicos e criatividade?",
     ],
   "Etapa V - Análise Crítica da(s) Solução(ões)": [
-    "A análise crítica das soluções foi coerente com o processo de modelagem matemática?",
+    "A análise crítica das soluções foi coerente com o processo de modelagem?",
     "A apresentação das soluções contou com a colaboração do grupo, mesmo que nem todos tenham apresentado oralmente?",
     "Esta análise levou em conta todas as outras etapas, sendo coerente com o tema, pesquisa exploratória, levantamento e resoluções?",
     "Os conteúdos matemáticos apresentados na análise foram coerentes com as resoluções dos problemas apresentados?",
